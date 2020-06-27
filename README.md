@@ -7,7 +7,7 @@ It was developed on codesandbox ( https://codesandbox.io/s/z2pqr9620m ) and if y
 
 In order to be able to run the game code without requiring a server, I have restructured the Brick Breaker Game code as SINGLE javascript file and removed the imports and export clauses which circumvents any cross file security issues. All the object oriented structure is maintained correctly.
  
-To run the game simply download the zip from this github repository (green button at top right) and unzip into any folder, Then double click on the index.html file and the game will run on Chrome, Firefox, Safari.
+To run the game simply download the zip from this github repository (green button 'Clone' at top right, choose Download Zip) and unzip into any folder, Then double click on the index.html file and the game will run on Chrome, Firefox, Safari.
 
 Note for developers - you can run this within Sublime text and VS Code without any problems.
 
