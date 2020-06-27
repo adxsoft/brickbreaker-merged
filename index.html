@@ -1,0 +1,57 @@
+<html>
+
+<head>
+    <title>Brick Breaker</title>
+    <meta charset="UTF-8" />
+    <style>
+        #gameScreen {
+            border: 1px solid black;
+        }
+
+        img {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <img id="img_ball" src="assets/images/ball.png">
+    <img id="img_brick" src="assets/images/brick.png">
+
+    <canvas id="gameScreen" width="800" height="600"></canvas>
+
+    <h3>Instructions</h3>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+
+        table.center {
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+    <table>
+        <tr>
+            <td><b>Key</b></td>
+            <td><b>Description</b></td>
+        </tr>
+        <tr>
+            <td>Esc</td>
+            <td>Pause Game</td>
+        <tr>
+        <tr>
+            <td>Left Arrow</td>
+            <td>Move Paddle Left</td>
+        </tr>
+        <tr>
+            <td>Right Arrow</td>
+            <td>Move Paddle Right</td>
+        </tr>
+    </table>
+    <script src="brickbreaker-merged.js"></script>
+</body>
+
+</html>
